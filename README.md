@@ -9,7 +9,7 @@ Appartemment
 1050
 200
 Yes
-7 couronne street
+couronne street 7
 2
 
 Attention, il faut attendre longtemps avant que le résultat ne s'affiche.
