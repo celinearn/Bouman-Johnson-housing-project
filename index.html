@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+	<meta charset="utf-8">
+	<title>Titre de la page</title>
+	<link rel="stylesheet" href="style.css">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Anton&family=Open+Sans&display=swap" rel="stylesheet">
+</head>
+<body>
+		<h1>ImmoEliza</h1>
+		<h2>Agence Immobilière</h2>
+	
+	<div id="cadre" style="background-image:url('house.jpg')">
+		<div id="cadreInt">
+			<h3>Estimation de prix</h3>
+			<form>
+			    <div>
+			        <label for="area">Area :</label>
+			        <input type="number" id="area" name="area">
+			    </div>
+			    <div>
+			        <label for="property">Property-type :</label>
+			        <select id="property">
+			            <option value="">--Please choose an option--</option>
+			            <option value="apartment" type="text">APARTMENT</option>
+			            <option value="house" type="text">HOUSE</option>
+			            <option value="others" type="text">OTHERS</option>
+			        </select>	    
+			    </div>
+			    <div>
+			        <label for="rooms">Rooms-number :</label>
+			        <input type="number" id="rooms" name="rooms">
+			    </div>
+			    <div>
+			        <label for="zip">zip-code :</label>
+			        <input type="number" id="zip" name="zip">
+			    </div>
+			    <div>
+			        <label for="land">land-area :</label>
+			        <input type="number" id="land" name="land">
+			    </div>
+			    <div>
+			        <label for="garden">garden :</label>
+			        <label>
+			       		<input type="radio" id="garden" name="garden" value="true">Yes
+			       	</label>
+			       	<label>
+			        <input type="radio" id="garden" name="garden" value="false">No
+			    	</label>
+			    </div>
+			    <!-- <div>
+			        <label for="msg">garden-area :</label>
+			        <input type="text" id="name" name="user_name">
+			    </div>
+			    <div>
+			        <label for="msg">equipped-kitchen :</label>
+			        <input type="text" id="name" name="user_name">
+			    </div> -->
+			    <div>
+			        <label for="address">full-address :</label>
+			        <input type="text" id="address" name="address">
+			    </div>
+			    <!-- <div>
+			        <label for="msg">swimmingpool :</label>
+			        <input type="text" id="name" name="user_name">
+			    </div>
+			    <div>
+			        <label for="msg">furnished :</label>
+			        <input type="text" id="name" name="user_name">
+			    </div>
+			    <div>
+			        <label for="msg">open-fire :</label>
+			        <input type="text" id="name" name="user_name">
+			    </div>
+			    <div>
+			        <label for="msg">terrace :</label>
+			        <input type="text" id="name" name="user_name">
+			    </div>
+			    <div>
+			        <label for="msg">terrace-area :</label>
+			        <input type="text" id="name" name="user_name">
+			    </div> -->
+			    <div>
+			        <label for="facade">facades-number :</label>
+			        <input type="number" id="facade" name="facade">
+			    </div>
+			    <!-- <div>
+			        <label for="msg">building-state :</label>
+			        <input type="text" id="name" name="user_name">
+			    </div> -->
+			    <button type="button" id="submit">Search</button>
+			</form>
+			<br>
+			<div id="result"></div>
+		</div>
+	</div>		
+	<script src="immo.js"></script>
+</body>
+</html>
+
+<!-- 
+						"area": int,
+                        "property-type": "APARTMENT" | "HOUSE" | "OTHERS",
+                        "rooms-number": int,
+                        "zip-code": int,
+                        "land-area": Optional[int],
+                        "garden": Optional[bool],
+                        "garden-area": Optional[int],
+                        "equipped-kitchen": Optional[bool],
+                        "full-address": Optional[str],
+                        "swimmingpool": Opional[bool],
+                        "furnished": Opional[bool],
+                        "open-fire": Optional[bool],
+                        "terrace": Optional[bool],
+                        "terrace-area": Optional[int],
+                        "facades-number": Optional[int],
+                        "building-state": Optional["NEW" | "GOOD" | "TO RENOVATE" | "JUST RENOVATED" | "TO REBUILD"] -->
