@@ -1,15 +1,9 @@
 # Bouman-Johnson-housing-project
 
-https://celinearn.github.io/Bouman-Johnson-housing-project/
+ImmoEliza est un projet d'application web permettant de donner une estimation de prix selon les différents types de biens en Belgique. Elle est le fruit d'une collaboration avec Emre Ozan, l'une des apprenants en intelligence artificielle de BeCode qui a créé une API.
 
-Le site ne fonctionne pour l'instant qu'avec ces données (parce que l'API rend l'adresse exacte obligatoire):
-300
-Appartemment
-2
-1050
-200
-Yes
-couronne street 7
-2
+Voici le projet:
+
+https://celinearn.github.io/Bouman-Johnson-housing-project/
 
 Attention, il faut attendre longtemps avant que le résultat ne s'affiche.
